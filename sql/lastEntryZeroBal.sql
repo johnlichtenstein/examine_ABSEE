@@ -30,7 +30,8 @@ with maxrep as (
     from lastentry
     group by 1 order by 1
     )
-select *
-from report
+{final}
+-- select *
+-- from report
 -- from checker
 -- order by cten
